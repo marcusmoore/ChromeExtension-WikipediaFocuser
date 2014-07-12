@@ -10,6 +10,15 @@ So I made a Google Chrome extension to block all links within an article to help
 ##Doesn't That Already Exist?
 Probably. Honestly, I didn't look it up and I wanted to see how easy it was to make a Chrome extension. (It's really easy).  
 
+##How to use
+From Google's documentation [here](https://developer.chrome.com/extensions/getstarted#unpacked):  
+
+1.  Visit chrome://extensions in your browser (or open up the Chrome menu by clicking the icon to the far right of the Omnibox: The menu's icon is three horizontal bars.. and select Extensions under the Tools menu to get to the same place).
+2.  Ensure that the Developer mode checkbox in the top right-hand corner is checked.  
+3.  Click Load unpacked extension… to pop up a file-selection dialog.
+4.  Navigate to the directory in which your extension files live, and select it.
+
+
 ##What's next?
 I'm "tagging" this as v0.1 because I didn't put that much effort into it and I only tested it on 3 pages. So a list off the top of my head is:
 

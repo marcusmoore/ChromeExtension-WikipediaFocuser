@@ -1,0 +1,15 @@
+{
+	"manifest_version": 2,
+
+	"name": "Wikipedia Focuser",
+	"description": "Kill all links in Wikipedia article and don't fall into the rabbit hole!",
+	"version": "0.1",
+
+	"content_scripts": [
+		{
+			"matches": ["http://*.wikipedia.org/*"],
+			"exclude_matches": ["http://*.wikipedia.org/wiki/Main_Page"],
+			"js": ["script.js"]
+		}
+	]
+}
